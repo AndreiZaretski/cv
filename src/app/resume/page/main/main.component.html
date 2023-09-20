@@ -1,0 +1,20 @@
+
+<div class="title" [style.background]="tiles[0].color">
+  <div>
+    <app-photo [photo]="content.photo" class="photo"></app-photo>
+  </div>
+  <div class="name-about"> 
+      <app-name [name]="content.name"></app-name>
+      <app-about [about]="content.about"></app-about> 
+  </div>
+</div>
+<div class="contacts">
+  
+</div>
+<mat-grid-list 
+[cols]="isMobile ? 1 : 2"
+(window:resize)="onResize($event)">
+<!-- rowHeight="fit" -->
+  <mat-grid-tile [style.background]="tiles[1].color">3</mat-grid-tile>
+  <mat-grid-tile>4</mat-grid-tile>
+</mat-grid-list>

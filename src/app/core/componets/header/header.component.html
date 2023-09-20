@@ -1,0 +1,15 @@
+<mat-toolbar color="primary" class="header-toolbar">
+<button mat-raised-button color="accent">{{content.download}}</button>
+<form [formGroup]="formLang">
+  <mat-form-field>
+    <mat-label>{{content.language}}</mat-label>
+    <mat-select [formControl]="langControl"
+    (selectionChange)="switchLanguage(langControl.value)">
+      <mat-option  *ngFor="let language of languages" [value]="language.value">
+        {{language.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</form>
+
+</mat-toolbar>

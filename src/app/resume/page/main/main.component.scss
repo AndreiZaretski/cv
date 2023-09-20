@@ -1,0 +1,19 @@
+:host {
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //flex-wrap: wrap;
+  }
+  // .grid1 {
+  // display: flex;
+  // flex-direction: column;
+  // }
+
+  .name-about {
+    padding-left: 2%;
+  }
+  // .photo {
+  // width: 50%;
+  // }
+}
