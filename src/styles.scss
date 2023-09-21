@@ -8,6 +8,14 @@ h1, h2, h3, h4, h5, h6, p {  margin: 0px !important; }
   margin: 0;
 }
 
-// @use '@angular/material' as mat;
+a {
+  text-decoration: none;
+  //color:black;
+  color: #673ab7;
+  transition: all .3s linear;
+}
 
-// @include mat.core();
+a:hover {
+  transform: scale(1.1);
+  color:  #8a6d05;
+}

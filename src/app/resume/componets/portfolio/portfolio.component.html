@@ -1,1 +1,34 @@
-<p>portfolio works!</p>
+<h2>
+  {{portfolio?.title}}
+</h2>
+
+<div class="portfolio-component">
+  <h2>
+    {{portfolio?.frontend?.title}}
+  </h2>
+
+  <div class="portfolio-frontend" *ngFor="let work of portfolio?.frontend?.works">
+    <h3>
+      <a [href]="work.link">{{work.name }}</a>
+    </h3>
+    <a *ngIf="work.githubLink" [href]="work.githubLink">Code here</a>
+    <p>
+      {{work.description}}
+    </p>
+  </div>
+
+  <h2>
+    {{portfolio?.backend?.title}}
+  </h2>
+
+  <div class="portfolio-backend" *ngFor="let work of portfolio?.backend?.works">
+    <h3>
+      <a [href]="work.link">{{work.name }}</a>
+    </h3>
+    <a *ngIf="work.githubLink" [href]="work.githubLink">Code here</a>
+    <p>
+      {{work.description}}
+    </p>
+  </div>
+
+</div>

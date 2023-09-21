@@ -1,1 +1,9 @@
-<p>stack works!</p>
+<h2>
+  {{ stack?.title}}
+</h2>
+
+<ul role="list" class="skills-list">
+  <li class="skills-list__item" *ngFor="let skill of stack?.list"> 
+{{skill}}
+  </li>
+</ul>

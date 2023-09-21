@@ -1,0 +1,19 @@
+<h2>{{experience?.title}}</h2>
+
+<div class="experience-component" *ngFor="let experience of experience?.organization">
+  <h3>
+    {{experience.name}}
+  </h3>
+  <p>
+    {{experience.position}}
+  </p>
+
+  <p>
+    {{experience.dates}}
+  </p>
+
+  <p>
+    {{experience.description}}
+  </p>
+  
+</div>

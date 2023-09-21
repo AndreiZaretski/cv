@@ -25,12 +25,8 @@ export class AppComponent implements OnInit, OnDestroy {
   content$!: IContent;
 
   private subscription?: Subscription;
-  // content$: Observable<IContent> = this.languageService.content$;
 
-  constructor(private languageService: LanguageService) {
-
-    // this.content$ = this.languageService.content$;
-  }
+  constructor(private languageService: LanguageService) {}
 
   ngOnDestroy(): void {
     this.subscription?.unsubscribe();
