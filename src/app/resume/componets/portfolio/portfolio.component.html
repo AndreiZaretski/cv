@@ -9,9 +9,9 @@
 
   <div class="portfolio-frontend" *ngFor="let work of portfolio?.frontend?.works">
     <h3>
-      <a [href]="work.link">{{work.name }}</a>
+      <a [href]="work.link" target="_blank">{{work.name }}</a>
     </h3>
-    <a *ngIf="work.githubLink" [href]="work.githubLink">Code here</a>
+    <a *ngIf="work.githubLink" [href]="work.githubLink" target="_blank">Code here</a>
     <p>
       {{work.description}}
     </p>
@@ -23,9 +23,9 @@
 
   <div class="portfolio-backend" *ngFor="let work of portfolio?.backend?.works">
     <h3>
-      <a [href]="work.link">{{work.name }}</a>
+      <a [href]="work.link" target="_blank">{{work.name }}</a>
     </h3>
-    <a *ngIf="work.githubLink" [href]="work.githubLink">Code here</a>
+    <a *ngIf="work.githubLink" [href]="work.githubLink" target="_blank">Code here</a>
     <p>
       {{work.description}}
     </p>

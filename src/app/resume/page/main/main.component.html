@@ -1,33 +1,36 @@
 
-<div class="title" [style.background]="tiles[0].color">
-  <div>
-    <app-photo [photo]="content.photo" class="photo"></app-photo>
-  </div>
-  <div class="name-about"> 
-      <app-name [name]="content.name"></app-name>
-      <app-about [about]="content.about"></app-about> 
-  </div>
-</div>
-<div class="contacts" [style.background]="tiles[1].color">
-  <app-contacts [contacts]="content.contacts"></app-contacts>
-</div>
+<div class="main">
 
-<div class="education" [style.background]="tiles[2].color">
-  <app-education [education]="content.education"></app-education>
-</div>
+    <div class="photo" [style.background]="tiles[7].color">
+      <app-photo [photo]="content.photo" ></app-photo>
+    </div>
+    <div class="name-about" [style.background]="tiles[0].color"> 
+        <app-name [name]="content.name"></app-name>
+        <app-about [about]="content.about"></app-about> 
+    </div>
 
-<div class="education" [style.background]="tiles[3].color">
-  <app-experience [experience]="content.experience"></app-experience>
-</div>
+    <div class="contacts" [style.background]="tiles[1].color">
+      <app-contacts [contacts]="content.contacts"></app-contacts>
+    </div>
+    
+    <div class="stack" [style.background]="tiles[5].color">
+      <app-stack [stack]="content.stack"></app-stack>
+    </div>
 
-<div class="portfolio">
-  <app-portfolio [portfolio]="content.portfolio"></app-portfolio>
-</div>
+    <div class="education" [style.background]="tiles[2].color">
+      <app-education [education]="content.education"></app-education>
+    </div>
+    
+    <div class="portfolio" [style.background]="tiles[4].color">
+      <app-portfolio [portfolio]="content.portfolio"></app-portfolio>
+    </div>
+    
+    <div class="language" [style.background]="tiles[6].color">
+      <app-languages [language]="content.languageSkill"></app-languages>
+    </div>
+    
+    <div class="experience" [style.background]="tiles[3].color">
+      <app-experience [experience]="content.experience"></app-experience>
+    </div>
 
-<div class="stack">
-  <app-stack [stack]="content.stack"></app-stack>
-</div>
-
-<div class="language">
-  <app-languages [language]="content.languageSkill"></app-languages>
 </div>

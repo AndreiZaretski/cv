@@ -45,6 +45,18 @@ export class MainComponent implements OnInit {
     {
       color: '#DDBDF1',
     },
+    {
+      color: 'grey',
+    },
+    {
+      color: 'aquamarine',
+    },
+    {
+      color: 'bisque',
+    },
+    {
+      color: 'cadetblue',
+    },
   ];
 
   public isMobile = false;

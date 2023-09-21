@@ -1,16 +1,61 @@
 :host {
-  .title {
+  .main {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    //flex-wrap: wrap;
+    align-items: stretch;
+    align-content: flex-start;
+    flex-wrap: wrap;
   }
-  
 
+  .photo {
+    text-align: center;
+    width: 20%;
+  }
   .name-about {
     padding-left: 2%;
+    width: 80%;
   }
-  // .photo {
-  // width: 50%;
-  // }
+
+  .contacts {
+    width: 70%;
+  }
+
+  .stack {
+    width: 30%;
+  }
+
+  .education {
+    width: 50%;
+  }
+
+  
+
+  .portfolio {
+    width: 50%;
+  }
+
+  .language {
+    width: 30%;
+  }
+
+  .experience {
+    width: 70%
+  }
+
+  @media screen and (max-width: 600px) {
+    .main {
+      flex-direction: column;
+    }
+
+    .photo,
+    .name-about,
+    .contacts,
+    .stack,
+    .education,
+    .portfolio,
+    .language,
+    .experience {
+      width: 100%;
+    }
+  }
 }
