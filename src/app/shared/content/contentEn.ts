@@ -139,8 +139,8 @@ export const contentEn: IContent = {
 
         {
           name: 'Online Store',
-          link: '',
-          githubLink: '',
+          link: 'https://andreizaretski.github.io/Online-store/',
+          githubLink: 'https://github.com/AndreiZaretski/Online-store/tree/develop',
           description: 'Online store, project implemented on TS',
         },
 
