@@ -10,12 +10,11 @@ h1, h2, h3, h4, h5, h6, p {  margin: 0px !important; }
 
 a {
   text-decoration: none;
-  //color:black;
   color: #673ab7;
   transition: all .3s linear;
 }
 
 a:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   color:  #8a6d05;
 }
