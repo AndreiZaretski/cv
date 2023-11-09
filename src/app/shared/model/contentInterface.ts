@@ -1,5 +1,4 @@
 export interface IContent {
-  // name: string,
   profession: string,
   language: string,
   languageRu: string,

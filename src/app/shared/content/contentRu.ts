@@ -11,7 +11,7 @@ export const contentRu: IContent = {
   photo: '../../../../assets/img/myPhoto.jpg',
   about: {
     title: 'Обо мне',
-    description: 'Привет. Я Андрей Зарецкий. Я начинающий разработчик. Интересен как фронтенд, так и бэкенд. Обучался в течении года в Rolling Scopes school, где изучал HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js и другие технологии. Участвовал в нескольких проектах, связанных с созданием веб-приложений и API. Имею опыт работы с Git, Webpack, MongoDB и PostgreSQL. Стремлюсь развивать свои навыки и учиться новому.',
+    description: 'Привет. Я Андрей Зарецкий. Я веб разработчик. Интересен как фронтенд, так и бэкенд. Обучался в течении года в Rolling Scopes school, где изучал HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js и другие технологии. Участвовал в нескольких проектах, связанных с созданием веб-приложений и API. Имею опыт работы с Git, Webpack, MongoDB и PostgreSQL. Стремлюсь развивать свои навыки и учиться новому.',
   },
   name: {
     title: 'Андрей Зарецкий',
@@ -101,8 +101,20 @@ export const contentRu: IContent = {
       title: 'Опыт',
       organization: [
         {
+          name: 'NeatSoft',
+          position: 'Angular developer',
+          dates: 'октябрь 2023 - ноябрь 2023',
+          description: 'Разработка веб приложений',
+        },
+        {
           name: 'RS-School',
-          position: 'Traine',
+          position: 'Mentor',
+          dates: 'сентябрь 2023',
+          description: 'Код ревью, проведение технических интервью',
+        },
+        {
+          name: 'RS-School',
+          position: 'Trainee',
           dates: 'сентябрь 2022',
           description: 'Выполнение проектов, работа в команде, прохождение интервью, соблюдение дедлайнов, участие в комьюнити разработчиков',
         },
@@ -163,7 +175,6 @@ export const contentRu: IContent = {
         {
           name: 'Youtube client',
           link: 'https://rolling-scopes-school.github.io/andreizaretski-ANGULAR2023Q1/login',
-          // githubLink: '',
           description: 'Сервис по поиску видио в ютубе. Для входа нужно ввести логин и пaроль который пройден валитацию.  Проект реализован на Angular.',
         },
 
@@ -175,35 +186,30 @@ export const contentRu: IContent = {
         {
           name: 'Server Ava Editor',
           link: 'https://github.com/AndreiZaretski/server-final-tas',
-          // githubLink: '',
           description: 'Сервер для авторизации и написания в техподдержу, для проекта AvaEditor. Реализован на Express.js.',
         },
 
         {
           name: 'File Manager',
           link: 'https://github.com/AndreiZaretski/File-Manager',
-          // githubLink: '',
           description: 'Простой файловый менеджер , реализованный на нативном node.js.',
         },
 
         {
           name: 'CRUD API',
           link: 'https://github.com/AndreiZaretski/CRUD_API',
-          // githubLink: '',
           description: 'Простой CRUD API, использующий базу данных в памяти. Он реализован на нативном node.js с использованием TypeScript.',
         },
 
         {
           name: 'Websokets',
           link: 'https://github.com/AndreiZaretski/websockets-ui',
-          // githubLink: '',
           description: 'Сервер для игры в морской бой.',
         },
 
         {
           name: 'Home Library Service',
           link: 'https://github.com/AndreiZaretski/nodejs2023Q2-service',
-          // githubLink: '',
           description: 'Служба домашней библиотеки! Пользователи могут создавать, читать, обновлять, удалять данные об исполнителях, треках и альбомах, добавлять их в избранное в своей домашней библиотеке! Авторизация при помощи JWT токенов. Написание кастомного логирования. Используемый стек nest.js, Docker,  PostgreSQL, Prisma.',
         },
       ],

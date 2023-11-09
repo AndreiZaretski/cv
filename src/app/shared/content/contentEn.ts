@@ -1,7 +1,6 @@
 import { IContent } from '../model/contentInterface';
 
 export const contentEn: IContent = {
-  // name: 'Andrei Zaretscki',
   profession: 'full-stack developer',
   language: 'Language',
   languageRu: 'Русский',
@@ -11,7 +10,7 @@ export const contentEn: IContent = {
   photo: '../../../../assets/img/myPhoto.jpg',
   about: {
     title: 'About',
-    description: 'Hello. I\'m Andrey. I\'m a beginner developer. I\'m interested in both frontend and backend. I studied for a year at Rolling Scopes school, where I learned HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js and other technologies. I participated in several projects related to creating web applications and APIs. I have experience working with Git, Webpack, MongoDB and PostgreSQL. I strive to develop my skills and learn new things.',
+    description: 'Hello. I\'m Andrey. I\'m a web developer. I\'m interested in both frontend and backend. I studied for a year at Rolling Scopes school, where I learned HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js and other technologies. I participated in several projects related to creating web applications and APIs. I have experience working with Git, Webpack, MongoDB and PostgreSQL. I strive to develop my skills and learn new things.',
   },
   name: {
     title: 'Andrei Zaretscki',
@@ -99,6 +98,18 @@ export const contentEn: IContent = {
       title: 'Experience',
       organization: [
         {
+          name: 'NeatSoft',
+          position: 'Angular developer',
+          dates: 'october 2023 - november 2023',
+          description: 'Web application development',
+        },
+        {
+          name: 'RS-School',
+          position: 'Mentor',
+          dates: 'september 2023',
+          description: 'Code review, technical interviews',
+        },
+        {
           name: 'RS-School',
           position: 'Traine',
           dates: 'septemper 2022',
@@ -161,7 +172,6 @@ export const contentEn: IContent = {
         {
           name: 'Youtube client',
           link: 'https://rolling-scopes-school.github.io/andreizaretski-ANGULAR2023Q1/login',
-          // githubLink: '',
           description: 'YouTube video search service. To log in, you need to enter a login and password that has been validated. The project was implemented in Angular.',
         },
       ],
@@ -172,35 +182,30 @@ export const contentEn: IContent = {
         {
           name: 'Server Ava Editor',
           link: 'https://github.com/AndreiZaretski/server-final-tas',
-          // githubLink: '',
           description: 'Server for authorization and writing to technical support for the AvaEditor project. Implemented in Express.js.',
         },
 
         {
           name: 'File Manager',
           link: 'https://github.com/AndreiZaretski/File-Manager',
-          // githubLink: '',
           description: 'A simple file manager implemented in native node.js.',
         },
 
         {
           name: 'CRUD API',
           link: 'https://github.com/AndreiZaretski/CRUD_API',
-          // githubLink: '',
           description: 'A simple CRUD API using in-memory database underneath. It implemented in native node.js using TypeScript.',
         },
 
         {
           name: 'Websokets',
           link: 'https://github.com/AndreiZaretski/websockets-ui',
-          // githubLink: '',
           description: 'Server for playing sea battle.',
         },
 
         {
           name: 'Home Library Service',
           link: 'https://github.com/AndreiZaretski/nodejs2023Q2-service',
-          // githubLink: '',
           description: 'Home Library Service! Users can create, read, update, delete data about Artists, Tracks and Albums, add them to Favorites in their own Home Library! Authorization using JWT tokens. Writing custom logging. Stack used: nest.js, Docker, PostgreSQL, Prisma.',
         },
       ],
