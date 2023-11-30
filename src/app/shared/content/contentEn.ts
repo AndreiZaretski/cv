@@ -188,19 +188,19 @@ export const contentEn: IContent = {
         {
           name: 'File Manager',
           link: 'https://github.com/AndreiZaretski/File-Manager',
-          description: 'A simple file manager implemented in native node.js.',
+          description: 'A simple file manager implemented in node.js.',
         },
 
         {
           name: 'CRUD API',
           link: 'https://github.com/AndreiZaretski/CRUD_API',
-          description: 'A simple CRUD API using in-memory database underneath. It implemented in native node.js using TypeScript.',
+          description: 'A simple CRUD API using in-memory database underneath. It implemented in node.js using TypeScript.',
         },
 
         {
           name: 'Websokets',
           link: 'https://github.com/AndreiZaretski/websockets-ui',
-          description: 'Server for playing sea battle.',
+          description: 'Server for playing sea battle.Stack: WebSocket, TS, Webpack',
         },
 
         {

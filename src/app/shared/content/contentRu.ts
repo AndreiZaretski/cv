@@ -175,7 +175,7 @@ export const contentRu: IContent = {
         {
           name: 'Youtube client',
           link: 'https://rolling-scopes-school.github.io/andreizaretski-ANGULAR2023Q1/login',
-          description: 'Сервис по поиску видио в ютубе. Для входа нужно ввести логин и пaроль который пройден валитацию.  Проект реализован на Angular.',
+          description: 'Сервис по поиску видио в ютубе. Для входа нужно ввести логин и пaроль который пройдет валидацию.  Проект реализован на Angular.',
         },
 
       ],
@@ -192,19 +192,19 @@ export const contentRu: IContent = {
         {
           name: 'File Manager',
           link: 'https://github.com/AndreiZaretski/File-Manager',
-          description: 'Простой файловый менеджер , реализованный на нативном node.js.',
+          description: 'Простой файловый менеджер , реализованный на node.js.',
         },
 
         {
           name: 'CRUD API',
           link: 'https://github.com/AndreiZaretski/CRUD_API',
-          description: 'Простой CRUD API, использующий базу данных в памяти. Он реализован на нативном node.js с использованием TypeScript.',
+          description: 'Простой CRUD API, использующий базу данных в памяти. Он реализован на node.js с использованием TypeScript.',
         },
 
         {
           name: 'Websokets',
           link: 'https://github.com/AndreiZaretski/websockets-ui',
-          description: 'Сервер для игры в морской бой.',
+          description: 'Сервер для игры в морской бой. Используемые технологии: WebSocket, TS, Webpack',
         },
 
         {
