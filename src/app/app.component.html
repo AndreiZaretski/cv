@@ -1,3 +1,5 @@
-<app-header [content]="content$"></app-header>
-<app-main [content]="content$"></app-main>
-<app-footer [content]="content$"></app-footer>
+<ng-container *ngIf="content$ | async as content">
+  <app-header [content]="content"></app-header>
+  <app-main [content]="content"></app-main>
+  <app-footer [content]="content"></app-footer>
+</ng-container>

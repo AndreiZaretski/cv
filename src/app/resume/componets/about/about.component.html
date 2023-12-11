@@ -1,2 +1,4 @@
-<h2>{{about?.title}}</h2>
-<p>{{about?.description}}</p>
+<ng-container *ngIf="about">
+  <h2>{{about.title}}</h2>
+  <p>{{about.description}}</p>
+</ng-container>

@@ -1,12 +1,12 @@
+import { NgFor } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { IExperience } from 'src/app/shared/model/contentInterface';
 
 @Component({
   selector: 'app-experience',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [CommonModule],
+  imports: [NgFor],
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss'],
 })

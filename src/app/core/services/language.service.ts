@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { contentEn } from 'src/app/shared/content/contentEn';
-import { IContent } from 'src/app/shared/model/contentInterface';
+import { Content } from 'src/app/shared/model/contentInterface';
 import { Lang } from 'src/app/shared/enums/lang';
 import { contentRu } from '../../shared/content/contentRu';
 
@@ -9,7 +9,7 @@ import { contentRu } from '../../shared/content/contentRu';
   providedIn: 'root',
 })
 export class LanguageService {
-  private contentSubject = new BehaviorSubject<IContent>(contentEn);
+  private contentSubject = new BehaviorSubject<Content>(contentEn);
 
   public content$ = this.contentSubject.asObservable();
 

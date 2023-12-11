@@ -1,5 +1,5 @@
+import { NgFor } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { materialModule } from 'src/app/shared/material-modules';
 import { ILanguage } from 'src/app/shared/model/contentInterface';
 
@@ -7,7 +7,7 @@ import { ILanguage } from 'src/app/shared/model/contentInterface';
   selector: 'app-languages',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [CommonModule, ...materialModule],
+  imports: [...materialModule, NgFor],
   templateUrl: './languages.component.html',
   styleUrls: ['./languages.component.scss'],
 })

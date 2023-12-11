@@ -1,9 +1,9 @@
 import {
   ChangeDetectionStrategy, Component, Input, OnInit,
 } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgFor } from '@angular/common';
 import { materialModule } from 'src/app/shared/material-modules';
-import { IContent } from 'src/app/shared/model/contentInterface';
+import { Content } from 'src/app/shared/model/contentInterface';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Lang } from 'src/app/shared/enums/lang';
 import { LanguageService } from '../../services/language.service';
@@ -17,12 +17,12 @@ interface ILanguage {
   selector: 'app-header',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [CommonModule, ...materialModule],
+  imports: [...materialModule, NgFor],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-  @Input() content!: IContent;
+  @Input() content!: Content;
 
   constructor(private languageService: LanguageService) {}
 

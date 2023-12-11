@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IContent } from 'src/app/shared/model/contentInterface';
+import { Content } from 'src/app/shared/model/contentInterface';
 
 @Component({
   selector: 'app-footer',
@@ -11,5 +11,7 @@ import { IContent } from 'src/app/shared/model/contentInterface';
   styleUrls: ['./footer.component.scss'],
 })
 export class FooterComponent {
-  @Input() content?: IContent;
+  @Input() content?: Content;
+
+  date = Date.now();
 }

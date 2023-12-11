@@ -1,8 +1,8 @@
 import {
   ChangeDetectionStrategy, Component, Input, OnInit,
 } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { IContent } from 'src/app/shared/model/contentInterface';
+import { NgIf } from '@angular/common';
+import { Content } from 'src/app/shared/model/contentInterface';
 import { materialModule } from 'src/app/shared/material-modules';
 import { AboutComponent } from '../../componets/about/about.component';
 import { PhotoComponent } from '../../componets/photo/photo.component';
@@ -24,13 +24,13 @@ export interface Tile {
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'],
-  imports: [CommonModule, ...materialModule,
+  imports: [NgIf, ...materialModule,
     AboutComponent, PhotoComponent, NameComponent,
     ContactsComponent, EducationComponent, ExperienceComponent,
     PortfolioComponent, StackComponent, LanguagesComponent],
 })
 export class MainComponent implements OnInit {
-  @Input() content!: IContent;
+  @Input() content: Content | null = null;
 
   tiles: Tile[] = [
     {

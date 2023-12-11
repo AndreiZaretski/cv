@@ -1,5 +1,4 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { IContacts } from 'src/app/shared/model/contentInterface';
 import { materialModule } from 'src/app/shared/material-modules';
 import { IconService } from 'src/app/core/services/icon.service';
@@ -8,7 +7,7 @@ import { IconService } from 'src/app/core/services/icon.service';
   selector: 'app-contacts',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [CommonModule, ...materialModule],
+  imports: [...materialModule],
   templateUrl: './contacts.component.html',
   styleUrls: ['./contacts.component.scss'],
 })

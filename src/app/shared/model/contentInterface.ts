@@ -1,4 +1,4 @@
-export interface IContent {
+export interface Content {
   profession: string,
   language: string,
   languageRu: string,

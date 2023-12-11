@@ -1,13 +1,13 @@
-import { IContent } from '../model/contentInterface';
+import { Content } from '../model/contentInterface';
 
-export const contentRu: IContent = {
+export const contentRu: Content = {
   // name: 'Андрей Зарецкий',
   profession: 'Full-stack разработчик',
   language: 'Язык',
   languageRu: 'Русский',
   languageEn: 'English',
   download: 'Загрузить',
-  footer: '© 2023 Андрей Зарецкий',
+  footer: 'Андрей Зарецкий',
   photo: '../../../../assets/img/myPhoto.jpg',
   about: {
     title: 'Обо мне',

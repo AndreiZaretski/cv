@@ -1,12 +1,12 @@
-import { IContent } from '../model/contentInterface';
+import { Content } from '../model/contentInterface';
 
-export const contentEn: IContent = {
+export const contentEn: Content = {
   profession: 'full-stack developer',
   language: 'Language',
   languageRu: 'Русский',
   languageEn: 'English',
   download: 'Download',
-  footer: '© 2023 Andrei Zaretski',
+  footer: 'Andrei Zaretski',
   photo: '../../../../assets/img/myPhoto.jpg',
   about: {
     title: 'About',
