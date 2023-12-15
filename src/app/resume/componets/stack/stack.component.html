@@ -3,7 +3,9 @@
 </h2>
 
 <ul role="list" class="skills-list">
-  <li class="skills-list__item" *ngFor="let skill of stack?.list"> 
-{{skill}}
+  @for (skill of stack?.list; track $index) {
+  <li class="skills-list__item"> 
+    {{skill}}
   </li>
+}
 </ul>

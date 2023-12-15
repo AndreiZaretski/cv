@@ -1,13 +1,17 @@
 <h2>{{education?.title}}</h2>
 
-<div *ngFor="let school of education?.school" class="education-component">
+@for (school of education?.school; track $index) {
+<div class="education-component">
   <h3>{{school.name}}</h3>
   <p>{{school.course}}</p>
-  <p *ngIf="school.qualification">{{school.qualification}}</p>
+  <p>{{school.qualification}}</p>
   <p>{{school.dates}}</p>
 
-  <div class="certificate" *ngIf="school.certificate">
+  @if (school.certificate) {
+  <div class="certificate">
     <mat-icon aria-hidden="false" fontIcon="badge" color="primary"></mat-icon>
     <a class="icon" [href]="school.certificate.link" target="_blank">{{school.certificate.text}}</a>
   </div>
+}
 </div>
+}

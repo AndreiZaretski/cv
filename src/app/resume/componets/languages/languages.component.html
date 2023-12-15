@@ -3,9 +3,11 @@
 </h2>
 
 <mat-list role="list">
-  <mat-list-item role="listitem" *ngFor="let lang of language?.language">
+  @for (lang of language?.language; track $index) {
+  <mat-list-item role="listitem">
     {{lang.name}}: {{lang.level}}
   </mat-list-item>
+}
   
 </mat-list>
 

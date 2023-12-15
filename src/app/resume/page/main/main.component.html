@@ -1,5 +1,5 @@
-
-<div class="main" *ngIf="content">
+@if (content) {
+<div class="main">
 
     <div class="photo" [style.background]="tiles[7].color">
       <app-photo [photo]="content.photo" ></app-photo>
@@ -34,3 +34,4 @@
     </div>
 
 </div>
+}

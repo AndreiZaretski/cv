@@ -1,7 +1,6 @@
 import {
   ChangeDetectionStrategy, Component, Input, OnInit,
 } from '@angular/core';
-import { NgFor } from '@angular/common';
 import { materialModule } from 'src/app/shared/material-modules';
 import { Content } from 'src/app/shared/model/contentInterface';
 import { FormControl, FormGroup } from '@angular/forms';
@@ -17,7 +16,7 @@ interface ILanguage {
   selector: 'app-header',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [...materialModule, NgFor],
+  imports: [...materialModule],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
 })

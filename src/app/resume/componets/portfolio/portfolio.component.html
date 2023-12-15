@@ -7,28 +7,36 @@
     {{portfolio?.frontend?.title}}
   </h2>
 
-  <div class="portfolio-frontend" *ngFor="let work of portfolio?.frontend?.works">
+  @for (work of portfolio?.frontend?.works; track $index) {
+  <div class="portfolio-frontend">
     <h3>
       <a [href]="work.link" target="_blank">{{work.name }}</a>
     </h3>
-    <a *ngIf="work.githubLink" [href]="work.githubLink" target="_blank">Code here</a>
+    @if (work.githubLink) {
+    <a [href]="work.githubLink" target="_blank">Code here</a>
+  }
     <p>
       {{work.description}}
     </p>
   </div>
+}
 
   <h2>
     {{portfolio?.backend?.title}}
   </h2>
 
-  <div class="portfolio-backend" *ngFor="let work of portfolio?.backend?.works">
+  @for (work of portfolio?.backend?.works; track $index) {
+  <div class="portfolio-backend">
     <h3>
       <a [href]="work.link" target="_blank">{{work.name }}</a>
     </h3>
-    <a *ngIf="work.githubLink" [href]="work.githubLink" target="_blank">Code here</a>
+    @if (work.githubLink) {
+    <a [href]="work.githubLink" target="_blank">Code here</a>
+  }
     <p>
       {{work.description}}
     </p>
   </div>
+}
 
 </div>

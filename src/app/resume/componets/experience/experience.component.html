@@ -1,6 +1,7 @@
 <h2>{{experience?.title}}</h2>
 
-<div class="experience-component" *ngFor="let experience of experience?.organization">
+@for (experience of experience?.organization; track $index) {
+<div class="experience-component">
   <h3>
     {{experience.name}}
   </h3>
@@ -17,3 +18,4 @@
   </p>
   
 </div>
+}

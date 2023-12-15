@@ -1,7 +1,6 @@
 import { Content } from '../model/contentInterface';
 
 export const contentRu: Content = {
-  // name: 'Андрей Зарецкий',
   profession: 'Full-stack разработчик',
   language: 'Язык',
   languageRu: 'Русский',

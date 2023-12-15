@@ -1,7 +1,6 @@
 import {
   ChangeDetectionStrategy, Component, Input, OnInit,
 } from '@angular/core';
-import { NgIf } from '@angular/common';
 import { Content } from 'src/app/shared/model/contentInterface';
 import { materialModule } from 'src/app/shared/material-modules';
 import { AboutComponent } from '../../componets/about/about.component';
@@ -24,7 +23,7 @@ export interface Tile {
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'],
-  imports: [NgIf, ...materialModule,
+  imports: [...materialModule,
     AboutComponent, PhotoComponent, NameComponent,
     ContactsComponent, EducationComponent, ExperienceComponent,
     PortfolioComponent, StackComponent, LanguagesComponent],
