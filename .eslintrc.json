@@ -25,7 +25,6 @@
       "rules": {
         "no-console": 0,
         "import/prefer-default-export": "off",
-        //"import/no-extraneous-dependencies": "off",
         "@angular-eslint/directive-selector": [
           "error",
           {
@@ -42,17 +41,6 @@
             "style": "kebab-case"
           }
         ]
-        //,
-        // "@angular-eslint/no-empty-lifecycle-method": [
-        //   "off"
-        // ],
-        // "class-methods-use-this": [
-        //   "off"
-        // ],
-        // "no-return-assign": "off",
-        // "no-useless-constructor": "off",
-        // "@typescript-eslint/no-useless-constructor": "off",
-        // "@typescript-eslint/no-empty-function": "off"
       }
     },
     {
