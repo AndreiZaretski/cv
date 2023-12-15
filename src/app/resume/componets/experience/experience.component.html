@@ -1,0 +1,21 @@
+<h2>{{experience?.title}}</h2>
+
+@for (experience of experience?.organization; track $index) {
+<div class="experience-component">
+  <h3>
+    {{experience.name}}
+  </h3>
+  <p>
+    {{experience.position}}
+  </p>
+
+  <p>
+    {{experience.dates}}
+  </p>
+
+  <p>
+    {{experience.description}}
+  </p>
+  
+</div>
+}

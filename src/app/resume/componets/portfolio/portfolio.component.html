@@ -1,0 +1,42 @@
+<h2>
+  {{portfolio?.title}}
+</h2>
+
+<div class="portfolio-component">
+  <h2>
+    {{portfolio?.frontend?.title}}
+  </h2>
+
+  @for (work of portfolio?.frontend?.works; track $index) {
+  <div class="portfolio-frontend">
+    <h3>
+      <a [href]="work.link" target="_blank">{{work.name }}</a>
+    </h3>
+    @if (work.githubLink) {
+    <a [href]="work.githubLink" target="_blank">Code here</a>
+  }
+    <p>
+      {{work.description}}
+    </p>
+  </div>
+}
+
+  <h2>
+    {{portfolio?.backend?.title}}
+  </h2>
+
+  @for (work of portfolio?.backend?.works; track $index) {
+  <div class="portfolio-backend">
+    <h3>
+      <a [href]="work.link" target="_blank">{{work.name }}</a>
+    </h3>
+    @if (work.githubLink) {
+    <a [href]="work.githubLink" target="_blank">Code here</a>
+  }
+    <p>
+      {{work.description}}
+    </p>
+  </div>
+}
+
+</div>
