@@ -10,8 +10,8 @@ import { ContactsComponent } from '../../componets/contacts/contacts.component';
 import { EducationComponent } from '../../componets/education/education.component';
 import { ExperienceComponent } from '../../componets/experience/experience.component';
 import { PortfolioComponent } from '../../componets/portfolio/portfolio.component';
-import { StackComponent } from '../../componets/stack/stack.component';
 import { LanguagesComponent } from '../../componets/languages/languages.component';
+import { StackComponent } from '../../componets/stack/stack.component';
 
 export interface Tile {
   color: string;
