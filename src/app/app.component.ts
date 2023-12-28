@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgIf, AsyncPipe } from '@angular/common';
+import { AsyncPipe } from '@angular/common';
 import { Observable } from 'rxjs';
 import { HeaderComponent } from './core/componets/header/header.component';
 import { FooterComponent } from './core/componets/footer/footer.component';
@@ -12,7 +12,7 @@ import { Content } from './shared/model/contentInterface';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   standalone: true,
-  imports: [NgIf, AsyncPipe, HeaderComponent, FooterComponent, MainComponent],
+  imports: [AsyncPipe, HeaderComponent, FooterComponent, MainComponent],
 })
 export class AppComponent {
   title = 'cv';
