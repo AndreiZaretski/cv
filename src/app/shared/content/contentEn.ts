@@ -214,7 +214,7 @@ export const contentEn: Content = {
 
   stack: {
     title: 'Skills',
-    list: ['HTML', 'CSS', 'SCSS', 'Java script', 'Typescript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redax', 'Redux-toolki'],
+    list: ['HTML', 'CSS', 'SCSS', 'Java script', 'Typescript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redax', 'Redux-toolkit'],
   },
 
   languageSkill: {
