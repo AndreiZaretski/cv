@@ -30,8 +30,17 @@ export const contentEn: Content = {
     school: [
       {
         name: 'RS-School',
+        course: 'React 2023 Q4',
+        dates: 'october 2023 - january 2024',
+        certificate: {
+          link: 'https://app.rs.school/certificate/r3yaovgd',
+          text: 'Certificate',
+        },
+      },
+      {
+        name: 'RS-School',
         course: 'NodeJS 2023Q2',
-        dates: 'june 2023 - august 2023',
+        dates: 'june 2023 - september 2023',
         certificate: {
           link: 'https://app.rs.school/certificate/skqxm1ym',
           text: 'Certificate',
@@ -41,7 +50,7 @@ export const contentEn: Content = {
       {
         name: 'RS-School',
         course: 'Angular 2023Q1',
-        dates: 'march 2023 - may 2023',
+        dates: 'march 2023 - june 2023',
         certificate: {
           link: 'https://app.rs.school/certificate/flen7nvw',
           text: 'Certificate',
@@ -51,7 +60,7 @@ export const contentEn: Content = {
       {
         name: 'RS-School',
         course: 'JavaScript/Front-end 2022Q3',
-        dates: 'march 2023 - may 2023',
+        dates: 'septemper 2022 - march 2023',
         certificate: {
           link: 'https://app.rs.school/certificate/6ad0o5bg',
           text: 'Certificate',
