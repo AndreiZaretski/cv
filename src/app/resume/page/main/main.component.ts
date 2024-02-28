@@ -33,28 +33,28 @@ export class MainComponent implements OnInit {
 
   tiles: Tile[] = [
     {
-      color: 'lightblue',
+      color: 'white',
     },
     {
-      color: 'lightgreen',
+      color: 'white',
     },
     {
-      color: 'lightpink',
+      color: 'white',
     },
     {
-      color: '#DDBDF1',
+      color: 'white',
     },
     {
-      color: 'grey',
+      color: 'white',
     },
     {
-      color: 'aquamarine',
+      color: 'white',
     },
     {
-      color: 'bisque',
+      color: 'white',
     },
     {
-      color: 'cadetblue',
+      color: 'white',
     },
   ];
 

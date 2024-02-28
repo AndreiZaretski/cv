@@ -7,7 +7,7 @@ export const contentEn: Content = {
   languageEn: 'English',
   download: 'Download',
   footer: 'Andrei Zaretski',
-  photo: '../../../../assets/img/myPhoto.jpg',
+  photo: '../../../../assets/img/newphoto.jpg',
   about: {
     title: 'About',
     description: 'Hello. I\'m Andrey. I\'m a web developer. I\'m interested in both frontend and backend. I studied for a year at Rolling Scopes school, where I learned HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js and other technologies. I participated in several projects related to creating web applications and APIs. I have experience working with Git, Webpack, MongoDB and PostgreSQL. I strive to develop my skills and learn new things.',
@@ -97,6 +97,12 @@ export const contentEn: Content = {
     {
       title: 'Experience',
       organization: [
+        {
+          name: 'Freelance',
+          position: 'Web Developer',
+          dates: 'march 2023',
+          description: 'Web application development',
+        },
         {
           name: 'NeatSoft',
           position: 'Angular developer',

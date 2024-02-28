@@ -7,7 +7,7 @@ export const contentRu: Content = {
   languageEn: 'English',
   download: 'Загрузить',
   footer: 'Андрей Зарецкий',
-  photo: '../../../../assets/img/myPhoto.jpg',
+  photo: '../../../../assets/img/newphoto.jpg',
   about: {
     title: 'Обо мне',
     description: 'Привет. Я Андрей Зарецкий. Я веб разработчик. Интересен как фронтенд, так и бэкенд. Обучался в течении года в Rolling Scopes school, где изучал HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js и другие технологии. Участвовал в нескольких проектах, связанных с созданием веб-приложений и API. Имею опыт работы с Git, Webpack, MongoDB и PostgreSQL. Стремлюсь развивать свои навыки и учиться новому.',
@@ -99,6 +99,12 @@ export const contentRu: Content = {
     {
       title: 'Опыт',
       organization: [
+        {
+          name: 'Freelance',
+          position: 'Web разработчик',
+          dates: 'март 2023',
+          description: 'Разработка веб приложений',
+        },
         {
           name: 'NeatSoft',
           position: 'Angular developer',
