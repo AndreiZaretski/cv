@@ -17,6 +17,10 @@
       <app-stack [stack]="content.stack"></app-stack>
     </div>
 
+    <div class="experience block" [style.background]="tiles[3].color">
+      <app-experience [experience]="content.experience"></app-experience>
+    </div>
+
     <div class="education block" [style.background]="tiles[2].color">
       <app-education [education]="content.education"></app-education>
     </div>
@@ -29,9 +33,7 @@
       <app-languages [language]="content.languageSkill"></app-languages>
     </div>
     
-    <div class="experience block" [style.background]="tiles[3].color">
-      <app-experience [experience]="content.experience"></app-experience>
-    </div>
+    
 
 </div>
 }

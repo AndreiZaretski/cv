@@ -10,11 +10,11 @@ export const contentRu: Content = {
   photo: '../../../../assets/img/newphoto.jpg',
   about: {
     title: 'Обо мне',
-    description: 'Привет. Я Андрей Зарецкий. Я веб разработчик. Интересен как фронтенд, так и бэкенд. Обучался в течении года в Rolling Scopes school, где изучал HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js и другие технологии. Участвовал в нескольких проектах, связанных с созданием веб-приложений и API. Имею опыт работы с Git, Webpack, MongoDB и PostgreSQL. Стремлюсь развивать свои навыки и учиться новому.',
+    description: 'Привет. Я Андрей Зарецкий. Я веб разработчик. Интересен как фронтенд, так и бэкенд. Участвовал в проектах, связанных с созданием, поддержкой веб-приложений и API.  Выступал в качестве ментора на курсах Angular. Обучался в Rolling Scopes school, где изучал HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js и другие технологии.  Имею опыт работы с Git, Webpack, MongoDB и PostgreSQL. Стремлюсь развивать свои навыки и учиться новому.',
   },
   name: {
     title: 'Андрей Зарецкий',
-    age: '35 лет',
+    age: '36 лет',
     profession: 'Full-stack разработчик',
   },
   contacts: {
@@ -84,7 +84,7 @@ export const contentRu: Content = {
       {
         name: 'БНТУ,  Факультет транспортных коммуникаций',
         course: 'Строительство',
-        qualification: 'Магистер',
+        qualification: 'Магистр',
         dates: '2011 - 2012',
       },
 
@@ -111,8 +111,21 @@ export const contentRu: Content = {
         {
           name: 'Freelance',
           position: 'Web разработчик',
-          dates: 'март 2023',
-          description: 'Разработка веб приложений',
+          dates: 'январь 2023',
+          description: `
+                        •  Разработка веб-компонентов (custom elements) на Angular в качестве составных частей приложения.
+
+                        •  Участие в командных проектах на Angular.
+
+                        •  Поддержка и разработка отдельных модулей для бэкенд-приложений на Nest.js.
+
+                        •  Поддержка приложений на Next.js.
+
+                        •  Разработка небольших приложений на Angular, Next.js и React.
+
+                        •  Разворачивание приложений на удалённом облачном сервере, настройка необходимой конфигурации для обеспечения бесперебойной работы, настройка автоматической пересборки через вебхуки при изменениях в Git.
+
+                        •  Создание административной части приложения и API с использованием headless CMS (Directus, Strapi) и их интеграция в основное приложение.`,
         },
         {
           name: 'NeatSoft',
@@ -232,7 +245,7 @@ export const contentRu: Content = {
 
   stack: {
     title: 'Навыки',
-    list: ['HTML', 'CSS', 'SCSS', 'Java script', 'Typescript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redax', 'Redux-toolkit'],
+    list: ['HTML', 'CSS', 'SCSS', 'Java script', 'Typescript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redux', 'Redux-toolkit', 'strapi', 'directus', 'knex'],
   },
 
   languageSkill: {

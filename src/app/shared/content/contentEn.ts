@@ -10,11 +10,11 @@ export const contentEn: Content = {
   photo: '../../../../assets/img/newphoto.jpg',
   about: {
     title: 'About',
-    description: 'Hello. I\'m Andrey. I\'m a web developer. I\'m interested in both frontend and backend. I studied for a year at Rolling Scopes school, where I learned HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js and other technologies. I participated in several projects related to creating web applications and APIs. I have experience working with Git, Webpack, MongoDB and PostgreSQL. I strive to develop my skills and learn new things.',
+    description: 'Hello. I\'m Andrey. I\'m a web developer. I\'m interested in both frontend and backend. Participated in projects related to the creation and maintenance of web applications and APIs. Acted as a mentor in Angular courses. I studied at Rolling Scopes school, where I learned HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js and other technologies. I have experience working with Git, Webpack, MongoDB and PostgreSQL. I strive to develop my skills and learn new things.',
   },
   name: {
     title: 'Andrei Zaretscki',
-    age: '35 yers old',
+    age: '36 yers old',
     profession: 'Full-stack developer',
   },
   contacts: {
@@ -109,8 +109,22 @@ export const contentEn: Content = {
         {
           name: 'Freelance',
           position: 'Web Developer',
-          dates: 'march 2023',
-          description: 'Web application development',
+          dates: 'january 2023',
+          description: `
+          •  Development of web components (custom elements) in Angular as integral parts of the application.
+
+          •  Participation in team projects using Angular.
+
+          •  Support and development of individual modules for backend applications on Nest.js.
+
+          •  Support for applications on Next.js.
+
+          •  Development of small applications using Angular, Next.js, and React.
+
+          •  Deployment of applications on a remote cloud server, configuration setup to ensure uninterrupted operation, and automatic rebuild setup via webhooks upon changes in Git.
+
+          •  Creation of the administrative part of the application and API using headless CMS (Directus, Strapi) and their integration into the main application.
+          `,
         },
         {
           name: 'NeatSoft',
@@ -229,7 +243,7 @@ export const contentEn: Content = {
 
   stack: {
     title: 'Skills',
-    list: ['HTML', 'CSS', 'SCSS', 'Java script', 'Typescript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redax', 'Redux-toolkit'],
+    list: ['HTML', 'CSS', 'SCSS', 'Java script', 'Typescript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redux', 'Redux-toolkit', 'strapi', 'directus', 'knex'],
   },
 
   languageSkill: {
