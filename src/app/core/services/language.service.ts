@@ -18,8 +18,8 @@ export class LanguageService {
     if (lang) {
       this.setContent(lang);
     } else {
-      localStorage.setItem('lang', Lang.En);
-      this.setContent(Lang.En);
+      localStorage.setItem('lang', Lang.Ru);
+      this.setContent(Lang.Ru);
     }
   }
 
