@@ -155,7 +155,7 @@ export const contentEn: Content = {
     },
 
   portfolio: {
-    title: 'Selected Cases',
+    title: 'Project examples',
     frontend: {
       title: 'Frontend',
       works: [
