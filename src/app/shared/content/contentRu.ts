@@ -10,11 +10,11 @@ export const contentRu: Content = {
   photo: '../../../../assets/img/newphoto.jpg',
   about: {
     title: 'Обо мне',
-    description: 'Привет. Я Андрей Зарецкий. Я веб разработчик. Интересен как фронтенд, так и бэкенд. Участвовал в проектах, связанных с созданием, поддержкой веб-приложений и API.  Выступал в качестве ментора на курсах Angular. Обучался в Rolling Scopes school, где изучал HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js и другие технологии.  Имею опыт работы с Git, Webpack, MongoDB и PostgreSQL. Стремлюсь развивать свои навыки и учиться новому.',
+    description: 'Привет. Я Андрей Зарецкий. Я веб разработчик. Интересен как фронтенд, так и бэкенд. Участвовал в проектах, связанных с созданием, поддержкой веб-приложений и API.  Выступаю в качестве ментора на курсах Angular.  Имею опыт работы с Git, Webpack, MongoDB и PostgreSQL. Стремлюсь развивать свои навыки и учиться новому.',
   },
   name: {
     title: 'Андрей Зарецкий',
-    age: '36 лет',
+    age: '37 лет',
     profession: 'Full-stack разработчик',
   },
   contacts: {
@@ -109,7 +109,7 @@ export const contentRu: Content = {
       title: 'Опыт',
       organization: [
         {
-          name: 'Freelance',
+          name: 'Independent Software Developer',
           position: 'Web разработчик',
           dates: 'январь 2023',
           description: `
@@ -156,88 +156,54 @@ export const contentRu: Content = {
     },
 
   portfolio: {
-    title: 'Примеры работ',
+    title: 'Избранные кейсы',
     frontend: {
       title: 'Frontend',
       works: [
         {
-          name: 'Online-Zoo',
-          link: 'https://rolling-scopes-school.github.io/andreizaretski-JSFE2022Q3/online-zoo/main/',
-          description: 'Адаптивная верстка с добавлением интерактивности на JS',
+          name: 'Прямой контакт',
+          link: 'https://dircont.com/',
+          description: 'Приложение для онлайн‑торгов с поддержкой реального времени. Участвовал в редизайне ключевых модулей: торги, чат, интеграция ИИ‑ассистента. Отвечал за оптимизацию работы с сокетами и управление состоянием через сервисы. Поддержка и развитие проекта в команде. Стэк: Angular, RxJS, Socket.io, REST API.',
         },
 
         {
-          name: 'Gem Puzzle',
-          link: 'https://rolling-scopes-school.github.io/andreizaretski-JSFE2022Q3/puzzle/',
-          description: 'Игра пятнашки написанная на JS',
+          name: 'Система безопасности промышленного предприятия (NDA)',
+          link: 'NDA',
+          description: 'Разработал фронтенд‑часть на Angular: нанесение интерактивных меток на карту‑схему с описанием проблем, уведомления для всех участников в режиме реального времени. Система обслуживала более 500 активных пользователей. Стэк: Angular',
         },
 
         {
-          name: 'SongOpera',
-          link: 'https://rolling-scopes-school.github.io/andreizaretski-JSFE2022Q3/songopera/html/',
-          description: 'Игра по угадываню произведений из опер реализованная на JS, HTML, SCSS',
+          name: 'Учебный центр (NDA)',
+          link: '',
+          description: 'Разработал фронтенд‑часть на Angular: личный кабинет студентов и преподавателей, управление курсами и расписанием. Реализовал модуль чата с ролевым разделением (студенты, преподаватели, администраторы) и тематическими каналами. Система обслуживала более 1000 пользователей. Работал в команде, активно участвовал в проектировании интерфейсов и интеграции API. Технологии: Angular, RxJS, NgRx, REST API.',
         },
 
         {
-          name: 'Online Store',
-          link: 'https://andreizaretski.github.io/Online-store/',
-          githubLink: 'https://github.com/AndreiZaretski/Online-store/tree/develop',
-          description: 'Интернет магазин,  проект реализована на TS',
+          name: 'Система планирования и управления подготовкой производства (NDA)',
+          link: '',
+          description: 'Разработка веб‑версии интегрированной системы планирования и управления подготовкой производства (СПиУПП). Начинал проект в паре с другим разработчиком, но завершал самостоятельно, несмотря на большой масштаб. Реализовал доски задач с визуализацией, диаграмму Ганта и инструменты расчётов. Использовал Angular, D3.js для визуализации, REST API. Опыт показал умение вести крупный проект от архитектуры до финальной реализации.',
         },
 
         {
-          name: 'Ava editor',
-          link: 'https://ava-team-rsclone.netlify.app/',
-          githubLink: 'https://github.com/9fogel/AVA-project/pull/70',
-          description: 'Командный проект. Редактор фотографий с возможностью авторизации и написания в тех поддержку. Реализован на TS',
+          name: 'Сервис по продаже автозапчастей и ремонту автомобилей',
+          link: '',
+          description: 'Фуллстек‑приложение на Next.js: CRM для управления складскими запасами автозапчастей, заявками на ремонт, очередью клиентов и базой клиентов. Участвовал в поддержке и развитии приложения, добавлении новых решений и оптимизации запросов к БД. Работал в команде, взаимодействуя с backend‑разработчиками и аналитиками. Стэк: Next.js, Sequelize, PostgreSQL, Node.js.',
         },
-
-        {
-          name: 'Airways',
-          link: 'https://ngonflight-angular-project.netlify.app/main',
-          githubLink: 'https://github.com/AndreiZaretski/airways-angular-project/pull/36',
-          description: 'Командный проект. Сервис по выбору, бронированию и покупке авиабилетов. Проект реализован на Angular.',
-        },
-
-        {
-          name: 'Youtube client',
-          link: 'https://rolling-scopes-school.github.io/andreizaretski-ANGULAR2023Q1/login',
-          description: 'Сервис по поиску видио в ютубе. Для входа нужно ввести логин и пaроль который пройдет валидацию.  Проект реализован на Angular.',
-        },
-
       ],
     },
     backend: {
       title: 'Backend',
       works: [
         {
-          name: 'Server Ava Editor',
-          link: 'https://github.com/AndreiZaretski/server-final-tas',
-          description: 'Сервер для авторизации и написания в техподдержу, для проекта AvaEditor. Реализован на Express.js.',
+          name: 'Медицинский центр (NDA)',
+          link: '',
+          description: 'Реализовал серверную часть на NestJS: регистрация новых участников, ролевая модель доступа, модуль статистики. Настроил выборку данных из БД и их предварительный расчёт на сервере перед отправкой клиенту. Работал в команде, отвечал за архитектуру и оптимизацию запросов. Стэк: NestJS, TypeORM, PostgreSQL, Redis.',
         },
 
         {
-          name: 'File Manager',
-          link: 'https://github.com/AndreiZaretski/File-Manager',
-          description: 'Простой файловый менеджер , реализованный на node.js.',
-        },
-
-        {
-          name: 'CRUD API',
-          link: 'https://github.com/AndreiZaretski/CRUD_API',
-          description: 'Простой CRUD API, использующий базу данных в памяти. Он реализован на node.js с использованием TypeScript.',
-        },
-
-        {
-          name: 'Websokets',
-          link: 'https://github.com/AndreiZaretski/websockets-ui',
-          description: 'Сервер для игры в морской бой. Используемые технологии: WebSocket, TS, Webpack',
-        },
-
-        {
-          name: 'Home Library Service',
-          link: 'https://github.com/AndreiZaretski/nodejs2023Q2-service',
-          description: 'Служба домашней библиотеки! Пользователи могут создавать, читать, обновлять, удалять данные об исполнителях, треках и альбомах, добавлять их в избранное в своей домашней библиотеке! Авторизация при помощи JWT токенов. Написание кастомного логирования. Используемый стек nest.js, Docker,  PostgreSQL, Prisma.',
+          name: 'Платформа управления проектами (NDA)',
+          link: '',
+          description: 'Разработал backend‑часть для корпоративной платформы управления проектами. Реализовал гибкую систему уведомлений, фильтрацию данных и модуль аналитики. Работал в команде, занимался интеграцией WebSockets и оптимизацией API. Стэк: NestJS, WebSockets, PostgreSQL, Redis, Docker.',
         },
       ],
     },

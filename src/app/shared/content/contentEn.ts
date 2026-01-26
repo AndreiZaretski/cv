@@ -155,53 +155,38 @@ export const contentEn: Content = {
     },
 
   portfolio: {
-    title: 'Works Example',
+    title: 'Selected Cases',
     frontend: {
       title: 'Frontend',
       works: [
         {
-          name: 'Online-Zoo',
-          link: 'https://rolling-scopes-school.github.io/andreizaretski-JSFE2022Q3/online-zoo/main/',
-          description: 'Adaptive layout with added interactivity using JS',
+          name: 'Direct Contact',
+          link: 'https://dircont.com/',
+          description: 'Real‑time online trading application. Participated in redesigning key modules: trading, chat, and AI assistant integration. Responsible for optimizing socket communication and managing state through services. Provided ongoing support and development within the team. Stack: Angular, RxJS, Socket.io, REST API.',
         },
 
         {
-          name: 'Gem Puzzle',
-          link: 'https://rolling-scopes-school.github.io/andreizaretski-JSFE2022Q3/puzzle/',
-          description: 'Tag game written in JS',
+          name: 'Industrial Enterprise Security System (NDA)',
+          link: 'NDA',
+          description: 'Developed the frontend part in Angular: interactive markers on the plant map with issue descriptions, and real‑time notifications for all participants. The system served more than 500 active users. Stack: Angular.',
         },
 
         {
-          name: 'SongOpera',
-          link: 'https://rolling-scopes-school.github.io/andreizaretski-JSFE2022Q3/songopera/html/',
-          description: 'Game for guessing works from operas implemented in JS, HTML and SCSS',
+          name: 'Educational Center (NDA)',
+          link: '',
+          description: 'Developed the frontend part in Angular: personal accounts for students and teachers, course and schedule management. Implemented a chat module with role‑based separation (students, teachers, administrators) and thematic channels. The system served more than 1000 users. Worked in a team, actively contributing to interface design and API integration. Technologies: Angular, RxJS, NgRx, REST API.',
         },
 
         {
-          name: 'Online Store',
-          link: 'https://andreizaretski.github.io/Online-store/',
-          githubLink: 'https://github.com/AndreiZaretski/Online-store/tree/develop',
-          description: 'Online store, project implemented on TS',
+          name: 'Production Planning and Management System (NDA)',
+          link: '',
+          description: 'Developed the web version of an integrated production planning and management system (PPMS). Started the project with another developer but completed it independently despite its large scale. Implemented task boards with visualization, Gantt chart, and calculation tools. Used Angular, D3.js for visualization, REST API. Demonstrated ability to lead a large project from architecture to final implementation.',
         },
 
         {
-          name: 'Ava editor',
-          link: 'https://ava-team-rsclone.netlify.app/',
-          githubLink: 'https://github.com/9fogel/AVA-project/pull/70',
-          description: 'Team project. Photo editor with the ability to log in and write to technical support. Implemented on TS',
-        },
-
-        {
-          name: 'Airways',
-          link: 'https://ngonflight-angular-project.netlify.app/main',
-          githubLink: 'https://github.com/AndreiZaretski/airways-angular-project/pull/36',
-          description: 'Team project. Service for selecting, booking and purchasing air tickets. The project was implemented in Angular.',
-        },
-
-        {
-          name: 'Youtube client',
-          link: 'https://rolling-scopes-school.github.io/andreizaretski-ANGULAR2023Q1/login',
-          description: 'YouTube video search service. To log in, you need to enter a login and password that has been validated. The project was implemented in Angular.',
+          name: 'Auto Parts Sales and Car Repair Service',
+          link: '',
+          description: 'Full‑stack application built with Next.js: CRM for managing auto parts inventory, repair requests, client queue, and customer database. Participated in support and further development, adding new features and optimizing database queries. Worked in a team, collaborating with backend developers and analysts. Stack: Next.js, Sequelize, PostgreSQL, Node.js.',
         },
       ],
     },
@@ -209,33 +194,15 @@ export const contentEn: Content = {
       title: 'Backend',
       works: [
         {
-          name: 'Server Ava Editor',
-          link: 'https://github.com/AndreiZaretski/server-final-tas',
-          description: 'Server for authorization and writing to technical support for the AvaEditor project. Implemented in Express.js.',
+          name: 'Medical Center (NDA)',
+          link: '',
+          description: 'Developed the server side using NestJS: user registration, role‑based access model, and statistics module. Configured database queries and pre‑processing of data on the server before sending to the client. Worked in a team, responsible for architecture and query optimization. Stack: NestJS, TypeORM, PostgreSQL, Redis.',
         },
 
         {
-          name: 'File Manager',
-          link: 'https://github.com/AndreiZaretski/File-Manager',
-          description: 'A simple file manager implemented in node.js.',
-        },
-
-        {
-          name: 'CRUD API',
-          link: 'https://github.com/AndreiZaretski/CRUD_API',
-          description: 'A simple CRUD API using in-memory database underneath. It implemented in node.js using TypeScript.',
-        },
-
-        {
-          name: 'Websokets',
-          link: 'https://github.com/AndreiZaretski/websockets-ui',
-          description: 'Server for playing sea battle.Stack: WebSocket, TS, Webpack',
-        },
-
-        {
-          name: 'Home Library Service',
-          link: 'https://github.com/AndreiZaretski/nodejs2023Q2-service',
-          description: 'Home Library Service! Users can create, read, update, delete data about Artists, Tracks and Albums, add them to Favorites in their own Home Library! Authorization using JWT tokens. Writing custom logging. Stack used: nest.js, Docker, PostgreSQL, Prisma.',
+          name: 'Project Management Platform (NDA)',
+          link: '',
+          description: 'Developed the backend part of a corporate project management platform. Implemented a flexible notification system, data filtering, and analytics module. Worked in a team, focusing on WebSocket integration and API optimization. Stack: NestJS, WebSockets, PostgreSQL, Redis, Docker.',
         },
       ],
     },
