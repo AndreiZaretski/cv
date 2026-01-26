@@ -10,11 +10,11 @@ export const contentEn: Content = {
   photo: '../../../../assets/img/newphoto.jpg',
   about: {
     title: 'About',
-    description: 'Hello. I\'m Andrey. I\'m a web developer. I\'m interested in both frontend and backend. Participated in projects related to the creation and maintenance of web applications and APIs. Acted as a mentor in Angular courses. I studied at Rolling Scopes school, where I learned HTML, CSS, JavaScript,Typescript, Angular, Node.js, Nest.js and other technologies. I have experience working with Git, Webpack, MongoDB and PostgreSQL. I strive to develop my skills and learn new things.',
+    description: 'Web developer with over 3.5 years of experience. Full‑stack specialist engaged in building and maintaining complex web applications and APIs. Delivered more than ten advanced UI modules, including real‑time maps and chat systems. On the backend, designed business logic and optimized APIs to ensure high performance and reliability. Experienced in integrating CMS solutions and working with both relational and document‑oriented databases. Mentor in Angular and JavaScript courses at RollingScopes School. Contribute to team projects (3–10 developers) throughout the full cycle - from design to release. Passionate about clean architecture, practical automation, and continuous professional growth.',
   },
   name: {
     title: 'Andrei Zaretscki',
-    age: '36 yers old',
+    age: '37 yers old',
     profession: 'Full-stack developer',
   },
   contacts: {
