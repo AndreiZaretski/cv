@@ -16,9 +16,7 @@ export class LanguageService {
   constructor() {
     const lang = localStorage.getItem('lang');
     if (lang) {
-      // this.setContent(lang);
-      localStorage.setItem('lang', Lang.En);
-      this.setContent(Lang.En);
+      this.setContent(lang);
     } else {
       localStorage.setItem('lang', Lang.En);
       this.setContent(Lang.En);
