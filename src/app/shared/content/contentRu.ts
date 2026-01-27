@@ -211,7 +211,7 @@ export const contentRu: Content = {
 
   stack: {
     title: 'Навыки',
-    list: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redux', 'Redux-toolkit', 'strapi', 'directus', 'knex'],
+    list: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'NextJs', 'Redux', 'Redux-toolkit', 'strapi', 'directus', 'knex'],
   },
 
   languageSkill: {
