@@ -1,0 +1,26 @@
+<h2>{{contacts?.title}}</h2>
+<p class="contact-component">
+  <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="phone"
+  color="primary"></mat-icon>
+  <span class="icon">{{contacts?.phone}}</span>
+</p>
+<p class="contact-component">
+  <mat-icon  aria-hidden="false" fontIcon="mail"
+  color="primary"></mat-icon>
+  <span class="icon">{{contacts?.email}}</span>
+</p>
+<p class="contact-component">
+  <mat-icon aria-hidden="false" fontIcon="location_on"
+  color="primary"></mat-icon>
+  <span class="icon">{{contacts?.location}}</span>
+</p>
+
+<p class="contact-component">
+  <mat-icon aria-hidden="false" svgIcon="github"></mat-icon>
+  <a class="icon" [href]="contacts?.github" target="_blank">{{contacts?.github}}</a>
+</p>
+
+<p class="contact-component">
+  <mat-icon aria-hidden="false" svgIcon="linkedin"></mat-icon>
+  <a class="icon" [href]="contacts?.linkedin" target="_blank">{{contacts?.linkedin}}</a>
+</p>

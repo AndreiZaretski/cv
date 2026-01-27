@@ -1,0 +1,13 @@
+<h2>
+  {{ language?.title}}
+</h2>
+
+<mat-list role="list">
+  @for (lang of language?.language; track $index) {
+  <mat-list-item role="listitem">
+    {{lang.name}}: {{lang.level}}
+  </mat-list-item>
+}
+  
+</mat-list>
+

@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {  margin: 0px !important; }
+* {  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #673ab7;
+  transition: all .3s linear;
+}
+
+a:hover {
+  transform: scale(1.2);
+  color:  #8a6d05;
+}

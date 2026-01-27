@@ -1,0 +1,11 @@
+:host {
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+    &__item {
+      padding-right: 10px;
+    }
+  }
+}

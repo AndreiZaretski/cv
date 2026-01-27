@@ -1,0 +1,11 @@
+<h2>
+  {{ stack?.title}}
+</h2>
+
+<ul role="list" class="skills-list">
+  @for (skill of stack?.list; track $index) {
+  <li class="skills-list__item"> 
+    {{skill}}
+  </li>
+}
+</ul>
