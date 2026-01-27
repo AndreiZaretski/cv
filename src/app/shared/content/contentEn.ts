@@ -107,7 +107,7 @@ export const contentEn: Content = {
       title: 'Experience',
       organization: [
         {
-          name: 'Freelance',
+          name: 'Independent Software Developer',
           position: 'Web Developer',
           dates: 'january 2023',
           description: `
@@ -160,7 +160,7 @@ export const contentEn: Content = {
       title: 'Frontend',
       works: [
         {
-          name: 'Direct Contact',
+          name: 'DirectCont',
           link: 'https://dircont.com/',
           description: 'Real‑time online trading application. Participated in redesigning key modules: trading, chat, and AI assistant integration. Responsible for optimizing socket communication and managing state through services. Provided ongoing support and development within the team. Stack: Angular, RxJS, Socket.io, REST API.',
         },
@@ -186,7 +186,7 @@ export const contentEn: Content = {
         {
           name: 'Auto Parts Sales and Car Repair Service',
           link: '',
-          description: 'Full‑stack application built with Next.js: CRM for managing auto parts inventory, repair requests, client queue, and customer database. Participated in support and further development, adding new features and optimizing database queries. Worked in a team, collaborating with backend developers and analysts. Stack: Next.js, Sequelize, PostgreSQL, Node.js.',
+          description: 'Full‑stack application built with Next.js: CRM for managing auto parts inventory, repair requests, client queue, and customer database. Participated in support and further development, adding new features and optimizing database queries. Worked in a team, collaborating with backend developers and analysts. Stack: Next.js, Sequelize, MySQL, Node.js.',
         },
       ],
     },
@@ -196,7 +196,7 @@ export const contentEn: Content = {
         {
           name: 'Medical Center (NDA)',
           link: '',
-          description: 'Developed the server side using NestJS: user registration, role‑based access model, and statistics module. Configured database queries and pre‑processing of data on the server before sending to the client. Worked in a team, responsible for architecture and query optimization. Stack: NestJS, TypeORM, PostgreSQL, Redis.',
+          description: 'Developed the server side using NestJS: user registration, role‑based access model, and statistics module. Configured database queries and pre‑processing of data on the server before sending to the client. Worked in a team, responsible for architecture and query optimization. Stack: NestJS, Knex, PostgreSQL, Redis.',
         },
 
         {
@@ -210,7 +210,7 @@ export const contentEn: Content = {
 
   stack: {
     title: 'Skills',
-    list: ['HTML', 'CSS', 'SCSS', 'Java script', 'Typescript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redux', 'Redux-toolkit', 'strapi', 'directus', 'knex'],
+    list: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redux', 'Redux-toolkit', 'strapi', 'directus', 'knex'],
   },
 
   languageSkill: {

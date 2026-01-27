@@ -187,7 +187,7 @@ export const contentRu: Content = {
         {
           name: 'Сервис по продаже автозапчастей и ремонту автомобилей',
           link: '',
-          description: 'Фуллстек‑приложение на Next.js: CRM для управления складскими запасами автозапчастей, заявками на ремонт, очередью клиентов и базой клиентов. Участвовал в поддержке и развитии приложения, добавлении новых решений и оптимизации запросов к БД. Работал в команде, взаимодействуя с backend‑разработчиками и аналитиками. Стэк: Next.js, Sequelize, PostgreSQL, Node.js.',
+          description: 'Фуллстек‑приложение на Next.js: CRM для управления складскими запасами автозапчастей, заявками на ремонт, очередью клиентов и базой клиентов. Участвовал в поддержке и развитии приложения, добавлении новых решений и оптимизации запросов к БД. Работал в команде, взаимодействуя с backend‑разработчиками и аналитиками. Стэк: Next.js, Sequelize, MySQL, Node.js.',
         },
       ],
     },
@@ -197,7 +197,7 @@ export const contentRu: Content = {
         {
           name: 'Медицинский центр (NDA)',
           link: '',
-          description: 'Реализовал серверную часть на NestJS: регистрация новых участников, ролевая модель доступа, модуль статистики. Настроил выборку данных из БД и их предварительный расчёт на сервере перед отправкой клиенту. Работал в команде, отвечал за архитектуру и оптимизацию запросов. Стэк: NestJS, TypeORM, PostgreSQL, Redis.',
+          description: 'Реализовал серверную часть на NestJS: регистрация новых участников, ролевая модель доступа, модуль статистики. Настроил выборку данных из БД и их предварительный расчёт на сервере перед отправкой клиенту. Работал в команде, отвечал за архитектуру и оптимизацию запросов. Стэк: NestJS, Knex, PostgreSQL, Redis.',
         },
 
         {
@@ -211,7 +211,7 @@ export const contentRu: Content = {
 
   stack: {
     title: 'Навыки',
-    list: ['HTML', 'CSS', 'SCSS', 'Java script', 'Typescript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redux', 'Redux-toolkit', 'strapi', 'directus', 'knex'],
+    list: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'Angular', 'Webpack', 'Nest.js', 'Node.js', 'Docker', 'Websocket', 'Git', 'PostgreSql', 'MongoDb', 'Prisma', 'RXJS', 'NGRX', 'React', 'Redux', 'Redux-toolkit', 'strapi', 'directus', 'knex'],
   },
 
   languageSkill: {
